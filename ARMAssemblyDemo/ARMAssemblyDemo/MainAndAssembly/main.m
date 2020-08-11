@@ -15,10 +15,39 @@ void Des();
 void C();
 void D();
 
+int mmmm = 23;
+
+void test() {
+    int a = 1;
+    int b = 2;
+    if (a == b) {
+        printf("a == b");
+    } else {
+        printf("a != b");
+    }
+}
+
+void test1() {
+    asm(
+        "mov w0, #0x80000000\n"
+        "subs w0, w0, #0x2"
+    );
+}
+
+void test2() {
+    printf("3455");
+    
+    int c = mmmm + 1;
+}
+
 int main(int argc, char * argv[]) {
-    printf("A");
-    C();
-    printf("B");
+//    printf("A");
+//    C();
+//    printf("B");
+    
+//    test1();
+    
+    test2();
     
     return 0;
 }
