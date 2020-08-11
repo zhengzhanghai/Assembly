@@ -12,9 +12,13 @@
 
 void Des();
 
+void C();
+void D();
+
 int main(int argc, char * argv[]) {
-    
-    Des();
+    printf("A");
+    C();
+    printf("B");
     
     return 0;
 }
