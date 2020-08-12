@@ -12,9 +12,15 @@
 
 void Des();
 
+int sum(int a, int b, int c, int d, int f, int g, int h, int i, int j, int k) {
+    return a + b + c + d + f + g + h + i + j + k;
+}
+
 int main(int argc, char * argv[]) {
     
-    Des();
+//    Des();
+    
+    sum(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
     
     return 0;
 }
