@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AD7A7C5124E190E500720F48 /* test4.s in Sources */ = {isa = PBXBuildFile; fileRef = AD7A7C5024E190E500720F48 /* test4.s */; };
+		ADBD9C7B24E153CF001DEA1F /* test3.s in Sources */ = {isa = PBXBuildFile; fileRef = ADBD9C7A24E153CF001DEA1F /* test3.s */; };
 		ADDD02E824DC0ECC00AE2B44 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ADDD02E724DC0ECC00AE2B44 /* AppDelegate.m */; };
 		ADDD02EB24DC0ECC00AE2B44 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ADDD02EA24DC0ECC00AE2B44 /* SceneDelegate.m */; };
 		ADDD02EE24DC0ECC00AE2B44 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADDD02ED24DC0ECC00AE2B44 /* ViewController.m */; };
@@ -21,6 +22,7 @@
 
 /* Begin PBXFileReference section */
 		AD7A7C5024E190E500720F48 /* test4.s */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm; path = test4.s; sourceTree = "<group>"; };
+		ADBD9C7A24E153CF001DEA1F /* test3.s */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm; path = test3.s; sourceTree = "<group>"; };
 		ADDD02E324DC0ECC00AE2B44 /* ARMAssemblyDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARMAssemblyDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADDD02E624DC0ECC00AE2B44 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		ADDD02E724DC0ECC00AE2B44 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 				ADDD030024DC0F1000AE2B44 /* test1.s */,
 				ADDD030224DC0F1C00AE2B44 /* test2.s */,
 				AD7A7C5024E190E500720F48 /* test4.s */,
+				ADBD9C7A24E153CF001DEA1F /* test3.s */,
 			);
 			path = MainAndAssembly;
 			sourceTree = "<group>";
@@ -177,6 +180,7 @@
 				AD7A7C5124E190E500720F48 /* test4.s in Sources */,
 				ADDD02F924DC0ECD00AE2B44 /* main.m in Sources */,
 				ADDD030124DC0F1000AE2B44 /* test1.s in Sources */,
+				ADBD9C7B24E153CF001DEA1F /* test3.s in Sources */,
 				ADDD02EB24DC0ECC00AE2B44 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
